@@ -1,4 +1,642 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 3
+Title "Bus Isolation Module"
+Date "2019-12-29"
+Rev "0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 "Repository: https://github.com/void-error/MTE_WFG-FC_HW"
+Comment4 "License: TAPR Open Hardware License - https://www.tapr.org/ohl"
+$EndDescr
+$Comp
+L Device:CP C?
+U 1 1 5C93A5E1
+P 4300 4550
+AR Path="/59CB92C1/5C93A5E1" Ref="C?"  Part="1" 
+AR Path="/59C8A55C/5C93A5E1" Ref="C?"  Part="1" 
+AR Path="/59C37E30/5C93A5E1" Ref="C?"  Part="1" 
+AR Path="/5C93A5E1" Ref="C101"  Part="1" 
+F 0 "C101" H 4325 4650 50  0000 L CNN
+F 1 "33u" H 4325 4450 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4338 4400 50  0001 C CNN
+F 3 "" H 4300 4550 50  0001 C CNN
+	1    4300 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C93A5E8
+P 6000 4550
+AR Path="/59CB92C1/5C93A5E8" Ref="C?"  Part="1" 
+AR Path="/59C8A55C/5C93A5E8" Ref="C?"  Part="1" 
+AR Path="/59C37E30/5C93A5E8" Ref="C?"  Part="1" 
+AR Path="/5C93A5E8" Ref="C102"  Part="1" 
+F 0 "C102" H 6025 4650 50  0000 L CNN
+F 1 "33u" H 6025 4450 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6038 4400 50  0001 C CNN
+F 3 "" H 6000 4550 50  0001 C CNN
+	1    6000 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:TLV1117-ADJ U?
+U 1 1 5C93A5EF
+P 4800 4300
+AR Path="/59CB92C1/5C93A5EF" Ref="U?"  Part="1" 
+AR Path="/59C8A55C/5C93A5EF" Ref="U?"  Part="1" 
+AR Path="/59C37E30/5C93A5EF" Ref="U?"  Part="1" 
+AR Path="/5C93A5EF" Ref="U101"  Part="1" 
+F 0 "U101" H 4650 4450 50  0000 C CNN
+F 1 "TLV1117-ADJ" H 4750 4450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 4800 4300 50  0001 C CNN
+F 3 "" H 4800 4300 50  0001 C CNN
+	1    4800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C93A5F6
+P 5500 4550
+AR Path="/59CB92C1/5C93A5F6" Ref="R?"  Part="1" 
+AR Path="/59C8A55C/5C93A5F6" Ref="R?"  Part="1" 
+AR Path="/59C37E30/5C93A5F6" Ref="R?"  Part="1" 
+AR Path="/5C93A5F6" Ref="R101"  Part="1" 
+F 0 "R101" V 5580 4550 50  0000 C CNN
+F 1 "180R" V 5500 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4550 50  0001 C CNN
+F 3 "" H 5500 4550 50  0001 C CNN
+	1    5500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C93A5FD
+P 4550 4800
+AR Path="/59CB92C1/5C93A5FD" Ref="C?"  Part="1" 
+AR Path="/59C8A55C/5C93A5FD" Ref="C?"  Part="1" 
+AR Path="/59C37E30/5C93A5FD" Ref="C?"  Part="1" 
+AR Path="/5C93A5FD" Ref="C103"  Part="1" 
+F 0 "C103" V 4600 4850 50  0000 L CNN
+F 1 "1u" V 4600 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4588 4650 50  0001 C CNN
+F 3 "" H 4550 4800 50  0001 C CNN
+	1    4550 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C93A604
+P 5750 4800
+AR Path="/59CB92C1/5C93A604" Ref="R?"  Part="1" 
+AR Path="/59C8A55C/5C93A604" Ref="R?"  Part="1" 
+AR Path="/59C37E30/5C93A604" Ref="R?"  Part="1" 
+AR Path="/5C93A604" Ref="R102"  Part="1" 
+F 0 "R102" V 5830 4800 50  0000 C CNN
+F 1 "330R" V 5750 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 4800 50  0001 C CNN
+F 3 "" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C93A60B
+P 5200 4550
+AR Path="/59CB92C1/5C93A60B" Ref="D?"  Part="1" 
+AR Path="/59C8A55C/5C93A60B" Ref="D?"  Part="1" 
+AR Path="/59C37E30/5C93A60B" Ref="D?"  Part="1" 
+AR Path="/5C93A60B" Ref="D102"  Part="1" 
+F 0 "D102" H 5200 4650 50  0000 C CNN
+F 1 "D" H 5200 4450 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5200 4550 50  0001 C CNN
+F 3 "" H 5200 4550 50  0001 C CNN
+	1    5200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C93A612
+P 4800 4000
+AR Path="/59CB92C1/5C93A612" Ref="D?"  Part="1" 
+AR Path="/59C8A55C/5C93A612" Ref="D?"  Part="1" 
+AR Path="/59C37E30/5C93A612" Ref="D?"  Part="1" 
+AR Path="/5C93A612" Ref="D101"  Part="1" 
+F 0 "D101" H 4650 4050 50  0000 C CNN
+F 1 "D" H 4950 4050 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4800 4000 50  0001 C CNN
+F 3 "" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4300 5200 4300
+Wire Wire Line
+	4300 3900 4300 4000
+Wire Wire Line
+	4300 4300 4500 4300
+Connection ~ 4300 4300
+Wire Wire Line
+	4300 4900 4300 4800
+Connection ~ 5500 4300
+Wire Wire Line
+	4800 4600 4800 4800
+Wire Wire Line
+	5500 4700 5500 4800
+Wire Wire Line
+	4800 4800 5200 4800
+Connection ~ 4800 4800
+Wire Wire Line
+	5500 4400 5500 4300
+Wire Wire Line
+	5200 4400 5200 4300
+Connection ~ 5200 4300
+Wire Wire Line
+	5200 4700 5200 4800
+Connection ~ 5200 4800
+Wire Wire Line
+	4950 4000 5300 4000
+Wire Wire Line
+	5300 4000 5300 4300
+Connection ~ 5300 4300
+Wire Wire Line
+	4650 4000 4300 4000
+Wire Wire Line
+	6000 4300 6000 4400
+Wire Wire Line
+	6000 4900 6000 4800
+Connection ~ 6000 4300
+Wire Wire Line
+	4300 4300 4300 4400
+Wire Wire Line
+	5500 4300 6000 4300
+Wire Wire Line
+	4800 4800 4700 4800
+Wire Wire Line
+	5500 4800 5600 4800
+Wire Wire Line
+	5200 4300 5300 4300
+Wire Wire Line
+	5200 4800 5500 4800
+Wire Wire Line
+	5300 4300 5500 4300
+Wire Wire Line
+	6000 4200 6000 4300
+$Comp
+L mte:IGND #PWR0108
+U 1 1 5C9C293B
+P 4300 4900
+F 0 "#PWR0108" H 4300 4650 50  0001 C CNN
+F 1 "IGND" H 4305 4727 50  0000 C CNN
+F 2 "" H 4300 4900 50  0001 C CNN
+F 3 "" H 4300 4900 50  0001 C CNN
+	1    4300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mte:IGND #PWR0109
+U 1 1 5C9C2B6C
+P 6000 4900
+F 0 "#PWR0109" H 6000 4650 50  0001 C CNN
+F 1 "IGND" H 6005 4727 50  0000 C CNN
+F 2 "" H 6000 4900 50  0001 C CNN
+F 3 "" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mte:+3V3I #PWR107
+U 1 1 5C9C2DC9
+P 6000 4200
+F 0 "#PWR107" H 6000 4300 50  0001 C CNN
+F 1 "+3V3I" H 6015 4373 50  0000 C CNN
+F 2 "" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mte:+5V0I #PWR106
+U 1 1 5C9C2E99
+P 4300 3900
+F 0 "#PWR106" H 4300 4000 50  0001 C CNN
+F 1 "+5V0I" H 4315 4073 50  0000 C CNN
+F 2 "" H 4300 3900 50  0001 C CNN
+F 3 "" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4800 4300 4800
+Connection ~ 4300 4800
+Wire Wire Line
+	4300 4800 4300 4700
+Connection ~ 5500 4800
+Wire Wire Line
+	5900 4800 6000 4800
+Connection ~ 6000 4800
+Wire Wire Line
+	6000 4800 6000 4700
+Connection ~ 4300 4000
+Wire Wire Line
+	4300 4000 4300 4300
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J101
+U 1 1 5E0600D3
+P 2100 2500
+F 0 "J101" H 2150 3117 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 2150 3026 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal" H 2100 2500 50  0001 C CNN
+F 3 "~" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 2200
+Text Label 1200 2700 0    60   ~ 0
+BUS_CLKR_N
+Text Label 1200 2400 0    60   ~ 0
+BUS_SDA
+Text Label 1200 2300 0    60   ~ 0
+BUS_SCL
+Text Label 3100 2900 2    60   ~ 0
+BUS_TX_N
+Text Label 1200 3000 0    60   ~ 0
+BUS_TX_P
+Text Label 1200 2800 0    60   ~ 0
+BUS_RX_N
+Text Label 3100 2600 2    60   ~ 0
+BUS_CLKR_P
+Text Label 3100 2800 2    60   ~ 0
+BUS_RX_P
+Wire Wire Line
+	2400 2600 3100 2600
+Wire Wire Line
+	3100 2800 2400 2800
+Wire Wire Line
+	2400 2900 3100 2900
+Wire Wire Line
+	1200 3000 1900 3000
+Wire Wire Line
+	1200 2700 1900 2700
+Wire Wire Line
+	1900 2800 1200 2800
+Wire Wire Line
+	1200 2400 1900 2400
+Wire Wire Line
+	1900 2300 1200 2300
+Text Label 3300 2600 0    60   ~ 0
+BUS_TRIG_P
+Wire Wire Line
+	3300 2600 4000 2600
+Text Label 3300 2700 0    60   ~ 0
+BUS_TRIG_N
+Wire Wire Line
+	3300 2700 4000 2700
+$Comp
+L mte:IGND #PWR0103
+U 1 1 5E06D580
+P 1800 3200
+F 0 "#PWR0103" H 1800 2950 50  0001 C CNN
+F 1 "IGND" H 1805 3027 50  0000 C CNN
+F 2 "" H 1800 3200 50  0001 C CNN
+F 3 "" H 1800 3200 50  0001 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mte:+5V0I #PWR102
+U 1 1 5E0815E8
+P 1800 2000
+F 0 "#PWR102" H 1800 2100 50  0001 C CNN
+F 1 "+5V0I" H 1815 2173 50  0000 C CNN
+F 2 "" H 1800 2000 50  0001 C CNN
+F 3 "" H 1800 2000 50  0001 C CNN
+	1    1800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2000 1800 2100
+Wire Wire Line
+	1800 2100 1900 2100
+Wire Wire Line
+	1800 3200 1800 3100
+Wire Wire Line
+	1800 2900 1900 2900
+Wire Wire Line
+	1900 2600 1800 2600
+Wire Wire Line
+	1800 2600 1800 2900
+Connection ~ 1800 2900
+$Comp
+L mte:IGND #PWR0104
+U 1 1 5E084D55
+P 2500 3200
+F 0 "#PWR0104" H 2500 2950 50  0001 C CNN
+F 1 "IGND" H 2505 3027 50  0000 C CNN
+F 2 "" H 2500 3200 50  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3200 2500 3000
+Wire Wire Line
+	2500 3000 2400 3000
+Wire Wire Line
+	2400 2700 2500 2700
+Wire Wire Line
+	2500 2700 2500 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	2400 2400 2500 2400
+Connection ~ 2500 2700
+Wire Wire Line
+	2400 2300 2500 2300
+Wire Wire Line
+	2500 2300 2500 2400
+Connection ~ 2500 2400
+Wire Wire Line
+	2400 2200 2500 2200
+Connection ~ 2500 2300
+Wire Wire Line
+	2400 2100 2500 2100
+Wire Wire Line
+	2500 2100 2500 2200
+Connection ~ 2500 2200
+Wire Wire Line
+	2500 2200 2500 2300
+Text Label 3300 2000 0    60   ~ 0
+BUS_CLKR_P
+Wire Wire Line
+	4000 2000 3300 2000
+Text Label 3300 2100 0    60   ~ 0
+BUS_CLKR_N
+Wire Wire Line
+	3300 2100 4000 2100
+Text Label 3300 2200 0    60   ~ 0
+BUS_TX_P
+Wire Wire Line
+	3300 2200 4000 2200
+Text Label 3300 2300 0    60   ~ 0
+BUS_TX_N
+Wire Wire Line
+	4000 2300 3300 2300
+Text Label 3300 2400 0    60   ~ 0
+BUS_RX_P
+Wire Wire Line
+	3300 2400 4000 2400
+Text Label 3300 2500 0    60   ~ 0
+BUS_RX_N
+Wire Wire Line
+	4000 2500 3300 2500
+Text Label 3300 2900 0    60   ~ 0
+BUS_SDA
+Text Label 3300 2800 0    60   ~ 0
+BUS_SCL
+Wire Wire Line
+	3300 2900 4000 2900
+Wire Wire Line
+	4000 2800 3300 2800
+Wire Wire Line
+	2500 2400 2500 2700
+Text Label 1200 2500 0    60   ~ 0
+BUS_TRIG_P
+Wire Wire Line
+	1200 2500 1900 2500
+Text Label 3100 2500 2    60   ~ 0
+BUS_TRIG_N
+Wire Wire Line
+	3100 2500 2400 2500
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO101
+U 1 1 5E126810
+P 7450 10300
+F 0 "#LOGO101" H 7450 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7450 10075 50  0001 C CNN
+F 2 "" H 7450 10300 50  0001 C CNN
+F 3 "~" H 7450 10300 50  0001 C CNN
+	1    7450 10300
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4000 1800 1000 1600
+U 5E31DB4F
+F0 "Bus Interface" 50
+F1 "bus_interface.sch" 50
+F2 "BUS_TRIG_N" B L 4000 2700 50 
+F3 "BUS_TRIG_P" B L 4000 2600 50 
+F4 "TRIG_DIR" I R 5000 2600 50 
+F5 "CLKR" O R 5000 2000 50 
+F6 "RX" O R 5000 2400 50 
+F7 "TX" I R 5000 2300 50 
+F8 "EN_TX" I R 5000 2200 50 
+F9 "BUS_TX_N" I L 4000 2300 50 
+F10 "BUS_TX_P" I L 4000 2200 50 
+F11 "BUS_RX_N" T L 4000 2500 50 
+F12 "BUS_RX_P" B L 4000 2400 50 
+F13 "BUS_CLKR_N" I L 4000 2100 50 
+F14 "BUS_CLKR_P" I L 4000 2000 50 
+F15 "BUS_SDA" B L 4000 2900 50 
+F16 "BUS_SCL" I L 4000 2800 50 
+F17 "MCU_PG" I R 5000 3000 50 
+F18 "TRIG_IN" I R 5000 2800 50 
+F19 "TRIG_OUT" O R 5000 2700 50 
+F20 "BOOT0" O R 5000 3200 50 
+F21 "NRST" O R 5000 3100 50 
+$EndSheet
+Wire Wire Line
+	5000 3200 5300 3200
+Wire Wire Line
+	5300 3100 5000 3100
+Wire Wire Line
+	5000 3000 5300 3000
+Wire Wire Line
+	5300 2800 5000 2800
+Wire Wire Line
+	5000 2700 5300 2700
+Wire Wire Line
+	5300 2600 5000 2600
+Wire Wire Line
+	5000 2400 5300 2400
+Wire Wire Line
+	5300 2300 5000 2300
+Wire Wire Line
+	5000 2200 5300 2200
+Wire Wire Line
+	5300 2000 5000 2000
+$Comp
+L mte:DGND #PWR?
+U 1 1 5E0EEFC3
+P 7000 3500
+AR Path="/5EE87A6C/5E0EEFC3" Ref="#PWR?"  Part="1" 
+AR Path="/5E0EEFC3" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7000 3250 50  0001 C CNN
+F 1 "DGND" H 7005 3327 50  0000 C CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mte:+3V3D #PWR?
+U 1 1 5E0B9015
+P 7000 1700
+AR Path="/5EE87A6C/5E0B9015" Ref="#PWR?"  Part="1" 
+AR Path="/5E0B9015" Ref="#PWR101"  Part="1" 
+F 0 "#PWR101" H 7000 1800 50  0001 C CNN
+F 1 "+3V3D" H 7015 1873 50  0000 C CNN
+F 2 "" H 7000 1700 50  0001 C CNN
+F 3 "" H 7000 1700 50  0001 C CNN
+	1    7000 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1800 7000 1800
+Wire Wire Line
+	7000 1800 7000 1700
+$Comp
+L Connector_Generic:Conn_01x16 J102
+U 1 1 5E933EBC
+P 7300 2500
+F 0 "J102" H 7380 2492 50  0000 L CNN
+F 1 "Conn_01x16" H 7380 2401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 7300 2500 50  0001 C CNN
+F 3 "~" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3500 7000 3400
+Wire Wire Line
+	7000 3300 7100 3300
+Wire Wire Line
+	7100 2900 7000 2900
+Wire Wire Line
+	7000 2900 7000 2500
+Wire Wire Line
+	7000 2500 7100 2500
+Wire Wire Line
+	7000 2900 7000 3300
+Connection ~ 7000 2900
+Connection ~ 7000 3300
+Wire Wire Line
+	7000 2500 7000 2100
+Wire Wire Line
+	7000 2100 7100 2100
+Connection ~ 7000 2500
+Wire Wire Line
+	7100 1900 7000 1900
+Wire Wire Line
+	7000 1900 7000 2100
+Connection ~ 7000 2100
+$Sheet
+S 5300 1800 1000 1600
+U 5EE87A6C
+F0 "Bus Isolation" 50
+F1 "bus_isolation.sch" 50
+F2 "CLKR" O R 6300 2000 50 
+F3 "TRIG_DIR_I" O L 5300 2600 50 
+F4 "TRIG_IN_I" I L 5300 2800 50 
+F5 "NRST_I" I L 5300 3100 50 
+F6 "MCU_PG_I" O L 5300 3000 50 
+F7 "TRIG_OUT_I" O L 5300 2700 50 
+F8 "EN_TX_I" O L 5300 2200 50 
+F9 "RX_I" I L 5300 2400 50 
+F10 "TX_I" O L 5300 2300 50 
+F11 "CLKR_I" I L 5300 2000 50 
+F12 "MCU_PG" I R 6300 2200 50 
+F13 "NRST" O R 6300 2300 50 
+F14 "BOOT" O R 6300 2400 50 
+F15 "TRIG_IN" O R 6300 3200 50 
+F16 "TX" I R 6300 2700 50 
+F17 "EN_TX" I R 6300 2600 50 
+F18 "TRIG_OUT" I R 6300 3100 50 
+F19 "TRIG_DIR" I R 6300 3000 50 
+F20 "RX" O R 6300 2800 50 
+F21 "BOOT_I" I L 5300 3200 50 
+$EndSheet
+Wire Wire Line
+	6300 2000 7100 2000
+Wire Wire Line
+	6300 2200 7100 2200
+Wire Wire Line
+	6300 2300 7100 2300
+Wire Wire Line
+	6300 2400 7100 2400
+Wire Wire Line
+	6300 2600 7100 2600
+Wire Wire Line
+	6300 2700 7100 2700
+Wire Wire Line
+	6300 2800 7100 2800
+Wire Wire Line
+	6300 3000 7100 3000
+Wire Wire Line
+	6300 3100 7100 3100
+Wire Wire Line
+	6300 3200 7100 3200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EDF5CFE
+P 1700 2100
+F 0 "#FLG0102" H 1700 2175 50  0001 C CNN
+F 1 "PWR_FLAG" V 1700 2227 50  0000 L CNN
+F 2 "" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EDF6475
+P 1700 3100
+F 0 "#FLG0103" H 1700 3175 50  0001 C CNN
+F 1 "PWR_FLAG" V 1700 3227 50  0000 L CNN
+F 2 "" H 1700 3100 50  0001 C CNN
+F 3 "~" H 1700 3100 50  0001 C CNN
+	1    1700 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 3100 1800 3100
+Connection ~ 1800 3100
+Wire Wire Line
+	1800 3100 1800 2900
+Wire Wire Line
+	1700 2100 1800 2100
+Connection ~ 1800 2100
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EE08AAA
+P 6900 1800
+F 0 "#FLG0101" H 6900 1875 50  0001 C CNN
+F 1 "PWR_FLAG" V 6900 1927 50  0000 L CNN
+F 2 "" H 6900 1800 50  0001 C CNN
+F 3 "~" H 6900 1800 50  0001 C CNN
+	1    6900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5EE09B2D
+P 6900 3400
+F 0 "#FLG0104" H 6900 3475 50  0001 C CNN
+F 1 "PWR_FLAG" V 6900 3527 50  0000 L CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "~" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3400 7000 3400
+Connection ~ 7000 3400
+Wire Wire Line
+	7000 3400 7000 3300
+Wire Wire Line
+	6900 1800 7000 1800
+Connection ~ 7000 1800
 $EndSCHEMATC

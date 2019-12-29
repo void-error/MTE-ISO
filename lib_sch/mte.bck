@@ -1,0 +1,159 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G57
+D Low-power configurable multiple function gate
+K multifunction
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf
+$ENDCMP
+#
+$CMP IRF7241
+D -6.2A Id, -40V Vds, P-Channel HEXFET Power MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7241.pdf
+$ENDCMP
+#
+$CMP IRF7468
+D 9.4A Id, 40V Vds, HEXFET N-Channel MOSFET, SO-8
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7468.pdf
+$ENDCMP
+#
+$CMP MCP809-270
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-300
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP MCP809-315
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-450
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-460
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-475
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP MCP809-485
+D Microcontroller reset monitor, active high output
+K supervisor reset push-pull
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
+$CMP NCP5661DT12
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT15
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT18
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT25
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT28
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT30
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP NCP5661DT33
+D Low Output Voltage,Ultra-Fast 1.0 A Low DropoutLinear Regulator with Enable
+K LDO regulator
+$ENDCMP
+#
+$CMP OPA2727
+D Dual 20MHz HighPrecision CMOS Operational Amplifier, SOIC-8/MSOP-8/DFN-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa727.pdf
+$ENDCMP
+#
+$CMP SN65HVD08
+D Wide Supply Range RS-485 Transceiver
+$ENDCMP
+#
+$CMP SN65HVD33
+D 3.3-V Full-Duplex RS-485 Driver and Receiver
+$ENDCMP
+#
+$CMP SN65LVDS1
+D High-Speed Differential Line Driver
+K lvds
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP SP3491
+D +3.3V Low Power Full-Duplex RS-485 Transceivers with 10Mbps Data Rate
+$ENDCMP
+#
+$CMP STM809L
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809M
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809R
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809S
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP STM809T
+D Microcontroller reset monitor, active low output
+K supervisor reset push-pull
+$ENDCMP
+#
+$CMP Si8650BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8652BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 2.5kV isolation, Fail-Safe Low, SOIC-16
+K 5Ch Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
